@@ -1,16 +1,29 @@
 ﻿//write include statements
 #include<iostream>
+#include"variables.h"
 
 //write namespace using statement for cout
 
-
-/*
-Call multiply_numbers with 10 and 10 parameter values and display function result
-*/
-using std::cout;
 int main()
 {
-	int multiply_numbers(10,10);
-
-	return 0;
+	double meal_amount; 
+	double tip_rate;
+	double tip_amount;
+	double tax_amount;
+	double total;
+	std::cin>>meal_amount;
+	get_sales_tax_amount(meal_amount)
+	{
+		tax_amount == return;
+	}
+	std::cin>>tip_rate;
+	get_tip_amount(meal_amount,tip_rate)
+	{
+		tip_amount == return;
+	}
+	total = tip_amount + tax_amount + meal_amount;
+	std::cout<<"Meal Amount: "<<meal_amount<<'/n';
+	std::cout<<"Sales Tax: "<<tax_amount<<'/n';
+	std::cout<<"Tip Amount: "<<tip_amount<<'/n';
+	std::cout<<"Total: "<<total<<'/n';
 }
