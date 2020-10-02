@@ -1,6 +1,6 @@
 #include "variables.h"
 
-const double tax_rate = 6.75;
+const double tax_rate = .0675;
 
 double get_sales_tax_amount(double meal_amount)
 {

@@ -12,15 +12,11 @@ int main()
 	double tax_amount;
 	double total;
 	std::cin>>meal_amount;
-	get_sales_tax_amount(meal_amount)
-	{
-		tax_amount == return;
-	}
+	tax_amount = get_sales_tax_amount(meal_amount);
+	
 	std::cin>>tip_rate;
-	get_tip_amount(meal_amount,tip_rate)
-	{
-		tip_amount == return;
-	}
+	tip_amount = get_tip_amount(meal_amount,tip_rate);
+	
 	total = tip_amount + tax_amount + meal_amount;
 	std::cout<<"Meal Amount: "<<meal_amount<<'/n';
 	std::cout<<"Sales Tax: "<<tax_amount<<'/n';
